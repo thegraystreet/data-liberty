@@ -1,36 +1,54 @@
 +++
-# A section created with the Featurette widget.
+# A Skills section created with the Featurette widget.
 widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 20  # Order that this section will appear.
+weight = 2  # Order that this section will appear.
 
 title = "Features"
-subtitle = "Document _anything_ ✨"
+subtitle = ""
 
-# Showcase features.
+# Showcase personal skills or business features.
 # 
 # Add/remove as many `[[feature]]` blocks below as you like.
 # 
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 
 [[feature]]
-  icon = "book-open"
+  icon = "wrench"
   icon_pack = "fas"
-  name = "Project Documentation"
-  description = "For users"
+  name = "Easy Configuration"
+  description = "" 
+
+[[feature]]
+  icon = "window-maximize"
+  icon_pack = "fas"
+  name = "Interface"
+  description = ""  
+
+[[feature]]
+  icon = "user"
+  icon_pack = "fas"
+  name = "User Permissions"
+  description = ""
   
 [[feature]]
-  icon = "question"
+  icon = "tag"
   icon_pack = "fas"
-  name = "Knowledge Base"
-  description = "For teams"  
-  
+  name = "Tags"
+  description = ""  
+
 [[feature]]
-  icon = "list-alt"
+  icon = "route"
   icon_pack = "fas"
-  name = "Personal Notebook"
-  description = "For yourself"
+  name = "Navigation"
+  description = ""  
+
+[[feature]]
+  icon = "sitemap"
+  icon_pack = "fas"
+  name = "Relationships"
+  description = ""
 
 # Uncomment to use emoji icons.
 # [[feature]]
